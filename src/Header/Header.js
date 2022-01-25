@@ -2,5 +2,5 @@ import React from 'react';
 import './Header.css';
 
 export default function Header(props) {
-  return <header>Alchemy Farm, by {props.name}</header>;
+  return <header>Animal Farm, by {props.name}</header>;
 }
