@@ -3,6 +3,6 @@ main {
     flex-wrap: wrap;
     margin-bottom: 40px;
     background-size: cover;
-    height: calc(100vh - 80px);
+    height: calc(100vh - 100px);
     align-content: flex-start;
 }
