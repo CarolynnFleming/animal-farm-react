@@ -6,7 +6,7 @@ import AnimalList from '../AnimalList/AnimalList';
 export default function Main(props) {
   return (
     <main style={{ backgroundImage: `url(${backgroundImg})` }}>
-      {props.animal.map((animals, i) => <AnimalList key={animals + i} name ={animals.name} type = { animals.type} says={animals.says} />)}
+      {props.animals.map((animal) => <AnimalList key={animal.name}{...animal}/>)}
     
     </main>
   );
