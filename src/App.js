@@ -9,9 +9,9 @@ function App() {
     <div className="App">
       <Header name= "Carolynn Fleming" />
 
-      <Footer year = "2022" />
+      <Footer year= "2022" />
 
-      <Main animal = {animals} />
+      <Main animals= {animals} />
     </div>
   );
 }

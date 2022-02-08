@@ -1,6 +1,16 @@
 .animal {
+    width: 100vw;
+    margin: 5px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
+.animal-list {
     position: absolute;
 }
- .animal img {
-    width: 10em;
-} 
+.animal img {
+    width: 100px;
+}
