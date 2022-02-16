@@ -11,7 +11,7 @@ function App() {
 
       <Footer year= "2022" />
 
-      <Main animals= {animals} />
+      <Main animals={animals} />
     </div>
   );
 }
